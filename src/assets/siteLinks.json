@@ -8,5 +8,10 @@
     "icon": "Cloud",
     "name": "网盘",
     "link": "https://pan.xgl6.cn"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "站点监测",
+    "link": "https://status.xgl6.cn"
   }
 ]
