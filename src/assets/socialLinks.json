@@ -2,19 +2,19 @@
 
   {
     "name": "微信",
-    "icon": "/images/icon/weixin.png",
+    "icon": "Weixin",
     "tip": "(゜-゜)つロ 干杯 ~",
     "url": "https://halo-oss.xgl6.cn/halo/wechat128-wxqudv.jpg"
   },
   {
     "name": "QQ",
-    "icon": "/images/icon/qq.png",
+    "icon": "Qq",
     "tip": "有什么事吗",
     "url": "https://res.abeim.cn/api/qq/?qq=1282742322"
   },
   {
     "name": "Email",
-    "icon": "/images/icon/email.png",
+    "icon": "Voicemail",
     "tip": "来封 Email ~",
     "url": "mailto:admin@xgl6.cn"
   }

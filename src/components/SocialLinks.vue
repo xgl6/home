@@ -10,7 +10,10 @@
         @mouseenter="socialTip = item.tip"
         @mouseleave="socialTip = '通过这里联系我吧'"
       >
-        <img class="icon" :src="item.icon" height="24" />
+<!--        <img class="icon" :src="item.icon" height="24" />-->
+        <Icon size="26" class="icon">
+          <component :is="siteIcon[item.icon]" />
+        </Icon>
       </a>
     </div>
     <span class="tip">{{ socialTip }}</span>
@@ -19,6 +22,15 @@
 
 <script setup>
 import socialLinks from "@/assets/socialLinks.json";
+import { Icon } from "@vicons/utils";
+import { Weixin ,Qq , Voicemail } from "@vicons/fa"; // 注意使用正确的类别
+
+// 网站链接图标
+const siteIcon = {
+  Weixin,
+  Qq,
+  Voicemail,
+};
 
 // 社交链接提示
 const socialTip = ref("通过这里联系我吧");
